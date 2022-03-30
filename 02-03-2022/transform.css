@@ -1,0 +1,29 @@
+.box {
+    border : 1px solid red; 
+    padding : 20px; 
+    margin : 20px;
+    width : 200px;
+    height : 200px;
+    background-color: yellow;
+    /* transform : translate(100px, 100px);
+    transform : rotate(10deg); */
+    /* transform : scale(2, 3); */
+    /* transform : scaleX(2); */
+   
+}
+
+.box:hover {
+    transform : skew(-10deg);
+}
+
+/* 
+translate();
+rotate();
+scale();
+scaleX();
+scaleY();
+skew();
+skewX();
+skewY();
+matrix();
+*/

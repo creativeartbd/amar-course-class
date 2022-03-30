@@ -1,0 +1,25 @@
+/* Without Float */
+
+ul {
+    border : 1px solid red;
+    padding : 0;
+}
+
+ul li {
+    list-style : none;
+    display : inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    border : 1px solid green;
+    padding : 15px 25px;
+    display : inline-block;
+    background-color: green;
+    color : #fff;
+}
+
+ul li a:hover {
+    background-color: red;
+    color : #fff;
+}

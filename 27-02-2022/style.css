@@ -1,0 +1,41 @@
+.container {
+    width : 1000px; 
+    margin : 100px auto 0;
+    border-color : red;
+    position: relative;
+}
+
+div {
+    border : 1px solid blue;
+    padding : 20px;
+    width : 200px;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+.static {
+    background-color: red;
+}
+
+.relative {
+    background-color:#ffff00;
+    position: relative;
+    left : 100px;
+    top : 10px;
+}
+
+.fixed {
+    background-color:green;
+    position: fixed;
+    top : 10px;
+    right : 10px;
+}
+
+.absolute {
+    background-color: orange;
+    position : absolute;
+    bottom : 0; 
+    right : 0;
+}

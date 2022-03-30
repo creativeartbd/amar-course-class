@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width : 1000px; 
+    margin : 0 auto;
+    border-color : red;
+}
+
+div {
+    border : 3px solid red;
+    padding : 20px;
+}
+
+.header {
+    border-color : green;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.logo {
+    border-color : blue;
+    float : left;
+    width : 146px;
+    height: 96px;
+}
+
+.logo h3 {
+    padding : 0;
+    margin : 0;
+    padding-top : 10px;
+}
+
+.navbar {
+    border-color : brown;
+    float : left;
+    width : 762px;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul li {
+    list-style : none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar ul {
+    float : left;
+}
+
+.navbar ul li {
+    /* display : inline-block; */
+    float : left;
+}
+
+.navbar ul li a {
+    border : 2px solid orange;
+    border-right : 0;
+    padding : 10px 25px;
+    color : white;
+    background-color : orange;
+}
+
+.navbar ul li:last-child a {
+    border-right: 2px solid orange;
+}
+
+.banner {
+    background-image: url("nature.jpeg");
+    background-size : cover;
+    height: 200px;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+
+.content-area {
+    border : 3px solid blue;
+    overflow : hidden;
+    margin-bottom: 20px;
+}
+
+.content {
+    float: left;
+    width : 700px;
+    margin-right: 20px;
+}
+
+.sidebar {
+    float : left;
+    width : 188px;
+}
+
+input {
+    width : 100%;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+}

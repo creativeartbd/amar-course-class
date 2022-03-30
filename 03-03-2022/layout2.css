@@ -1,0 +1,27 @@
+.container {
+    width : 1000px;  
+    margin : 0 auto;
+}
+
+div {
+    padding : 20px; 
+    border : 3px solid red;
+    margin-bottom: 20px;
+}
+
+.content {
+    border-color : green;
+    overflow : hidden;
+}
+
+.left {
+    border-color : blue;
+    float : left;
+    width : 700px;
+}
+
+.right {
+    border-color : black;
+    float : left;
+    width : 162px;
+}
